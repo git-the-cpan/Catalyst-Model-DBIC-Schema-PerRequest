@@ -31,7 +31,9 @@
             "Carp" : "0",
             "Catalyst::Component::InstancePerContext" : "0",
             "Catalyst::Model" : "0",
-            "Moose" : "0"
+            "Module::Runtime" : "0",
+            "Moose" : "0",
+            "strict" : "0"
          }
       },
       "test" : {
@@ -48,7 +50,6 @@
             "base" : "0",
             "lib::abs" : "0",
             "namespace::autoclean" : "0",
-            "strict" : "0",
             "warnings" : "0"
          }
       }
@@ -65,6 +66,6 @@
          "web" : "https://github.com/moltar/Catalyst-Model-DBIC-Schema-PerRequest"
       }
    },
-   "version" : "0.001001"
+   "version" : "0.002001"
 }
 

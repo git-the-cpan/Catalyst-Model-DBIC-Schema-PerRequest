@@ -15,7 +15,6 @@ build_requires:
   base: 0
   lib::abs: 0
   namespace::autoclean: 0
-  strict: 0
   warnings: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
@@ -30,8 +29,10 @@ requires:
   Carp: 0
   Catalyst::Component::InstancePerContext: 0
   Catalyst::Model: 0
+  Module::Runtime: 0
   Moose: 0
+  strict: 0
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Catalyst-Model-DBIC-Schema-PerRequest
   repository: git://github.com/moltar/Catalyst-Model-DBIC-Schema-PerRequest.git
-version: 0.001001
+version: 0.002001

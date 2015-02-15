@@ -23,7 +23,9 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Catalyst::Component::InstancePerContext" => 0,
     "Catalyst::Model" => 0,
-    "Moose" => 0
+    "Module::Runtime" => 0,
+    "Moose" => 0,
+    "strict" => 0
   },
   "TEST_REQUIRES" => {
     "Catalyst" => 0,
@@ -38,10 +40,9 @@ my %WriteMakefileArgs = (
     "base" => 0,
     "lib::abs" => 0,
     "namespace::autoclean" => 0,
-    "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001001",
+  "VERSION" => "0.002001",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -60,6 +61,7 @@ my %FallbackPrereqs = (
   "DBIx::Class::Core" => 0,
   "DBIx::Class::Schema" => 0,
   "ExtUtils::MakeMaker" => 0,
+  "Module::Runtime" => 0,
   "Moose" => 0,
   "Test::Exception" => 0,
   "Test::More" => 0,

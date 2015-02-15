@@ -1,7 +1,9 @@
 requires "Carp" => "0";
 requires "Catalyst::Component::InstancePerContext" => "0";
 requires "Catalyst::Model" => "0";
+requires "Module::Runtime" => "0";
 requires "Moose" => "0";
+requires "strict" => "0";
 
 on 'test' => sub {
   requires "Catalyst" => "0";
@@ -16,7 +18,6 @@ on 'test' => sub {
   requires "base" => "0";
   requires "lib::abs" => "0";
   requires "namespace::autoclean" => "0";
-  requires "strict" => "0";
   requires "warnings" => "0";
 };
 
