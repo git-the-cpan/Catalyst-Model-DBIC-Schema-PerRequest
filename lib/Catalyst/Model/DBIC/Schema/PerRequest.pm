@@ -9,7 +9,7 @@ with 'Catalyst::Component::InstancePerContext';
 use Carp qw(croak confess);
 use Module::Runtime qw(use_module);
 
-our $VERSION = '0.002001';
+our $VERSION = '0.002002';
 
 
 
@@ -129,7 +129,7 @@ Catalyst::Model::DBIC::Schema::PerRequest - Per request clone of a DBIC model wi
 
 =head1 VERSION
 
-version 0.002001
+version 0.002002
 
 =head1 SYNOPSIS
 

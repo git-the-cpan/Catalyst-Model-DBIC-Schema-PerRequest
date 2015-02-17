@@ -35,4 +35,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Catalyst-Model-DBIC-Schema-PerRequest
   repository: git://github.com/moltar/Catalyst-Model-DBIC-Schema-PerRequest.git
-version: 0.002001
+version: 0.002002

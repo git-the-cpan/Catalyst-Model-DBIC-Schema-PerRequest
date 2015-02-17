@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Catalyst-Model-DBIC-Schema-PerRequest,
-version 0.002001:
+version 0.002002:
 
   Per request clone of a DBIC model with additional parameters
 
